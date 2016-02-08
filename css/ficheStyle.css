@@ -78,5 +78,5 @@
 	background: -o-linear-gradient(#fff, #999);
 }
 .close li{
-  
+  list-style: none;
 }
