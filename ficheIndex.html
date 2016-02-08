@@ -4,19 +4,49 @@
     <meta charset="utf-8">
     <title>Fiche produit</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/squeletteStyle.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/ficheStyle.css" />
     <script src="js/fichescript.js"></script>
   </head>
   <body>
+    <!-- nav medo -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img id="logo" src="http://www.lecturesalchimiques.com/img/lectures-alchimiques-1435070231.jpg"/>
+          <!-- ici ce trouvait un titre à gauche que j'ai supprimé-->
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#about">Catalogue</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Panier</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+
+      </div>
+
+    </nav>
+    <!-- nav Medo -->
     <div class="container-fluid cadre">
 
-            <div class="col-md-2">
-            </div>
+            <!-- <div class="col-md-2">
+            </div> -->
 
-            <div class="col-md-8">
+            <div class="col-md-8 col-md-offset-2">
               <div class="row">
-                <div class="col-md-4 no-padding">
+                <div class="col-md-4 ">
                   <img src="http://placehold.it/150x250" alt="" />
                 </div>
 
@@ -34,7 +64,7 @@
 
                 <div class="col-md-4">
                   <div class="row cadre">
-                    <div class="col-md-12">
+                    <div class="col-md-5 col-md-offset-7">
                       <div class="test">
                         <span>Quantité: </span><div class="prixcase"><span id="case"></span></div>
 
@@ -47,11 +77,11 @@
                     </div>
                   </div>
                   </div>
-                  <!-- bouton - et + -->
+
                   <button class="btn btn-default">Panier</button>
                 </div>
                 <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-12">
                   <h2>Résumé</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -59,28 +89,103 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-12">
+                  <!-- FENETRE MODALE -->
                   <div class="avis">
-
                     <a href="#openModal">DONNEZ VOTRE AVIS</a>
-
                     <div id="openModal" class="modalDialog">
                     	<div>
-                    		<a href="#close" title="Close" class="close">X</a>
+
                     		<h2>VOTRE AVIS</h2>
                         <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
                         <textarea name="name" rows="8" cols="40"></textarea>
-                          <button class="btn btn-default">Valider</button>
+                          <button class="btn btn-default"><a href="#close" title="Close" class="close">Valider</a></button>
                     	</div>
                     </div>
                   </div>
+                  <!-- FENETRE MODALE -->
                 </div>
               </div>
-
+              <div class="row ">
+                <div class="col-md-12 -col-md-offset-1 espace">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 ">
+                  <div class="col-md-3">
+                    <h3>Paul Henri</h3>
+                    <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <h3>Produit</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row ">
+                <div class="col-md-12 -col-md-offset-1 espace">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 ">
+                  <div class="col-md-3">
+                    <h3>Paul Henri</h3>
+                    <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <h3>Produit</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row ">
+                <div class="col-md-12 espace">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 ">
+                  <div class="col-md-3">
+                    <h3>Paul Henri</h3>
+                    <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <h3>Produit</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row ">
+                <div class="col-md-12 espace">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 ">
+                  <div class="col-md-3">
+                    <h3>Paul Henri</h3>
+                    <i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                  </div>
+                  <div class="col-md-9">
+                    <h3>Produit</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-
-
+        </div>
     </div>
+<!-- footer medo -->
+    <footer>
+        <p>© Place sticky footer content here.</p>
+    </footer>
+    <!-- footer medo -->
   </body>
 </html>
 
