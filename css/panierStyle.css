@@ -1,0 +1,10 @@
+
+main {
+  width: 80%;
+}
+
+table caption {
+  padding-bottom: 50px;
+  font-size: 20px;
+  color: grey;
+}
