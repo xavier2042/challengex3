@@ -15,15 +15,20 @@ function afficheFiche(){
 }
 var panier = [];
 function ajouterPanier(){
+  var saisieimg = document.getElementById('imgsrc');
+  var pechoimg = saisieimg.src;
+  var saisienom = document.getElementById('nom');
+  var pechonom = saisienom.innerHTML;
+  var saisieprix = document.getElementById('prix');
+  var pechoprix = saisieprix.innerHTML;
   var saisiequantite = document.getElementById('quantite');
-  var pecho = saisiequantite.value;
-  console.log(quantite);
-  // var elementPanier = document.getElementById('panier')
-  // var listLi = document.createElement('li');
-  // elementPanier.appendChild(listLi);
-  // listLi.innerHTML = pecho;
-  panier.push(pecho);
-  // console.log(panier);
+  var pechoquantite = saisiequantite.value;
+
+  panier.push(pechoimg);
+  panier.push(pechonom);
+  panier.push(pechoprix);
+  panier.push(pechoquantite);
+
   sessionStorage.setItem("paniersauvegarde",JSON.stringify(panier));
 }
 
