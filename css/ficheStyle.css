@@ -9,8 +9,15 @@
 .descriptionProduit {
   list-style: none;
 }
+.btn{
+  margin-top: 50px;
+}
 .cadre{
   padding: 50px 0;
+}
+.input{
+  width: 60px;
+  text-align: center;
 }
 .quantite{
   width: 100px;

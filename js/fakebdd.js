@@ -1,8 +1,7 @@
-var livre1={
+var livre1 = {
   nom:"Lorem",
   description:"Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.",
   photo:"image/livre1.jpg"
-  // prix: "10euros"
 }
 var livre2={
   nom:"Lorem",
