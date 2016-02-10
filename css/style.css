@@ -6,13 +6,17 @@ body {
 .navbar {
   height: 150px;
   background-color: #DE754B;
+  opacity: 20;
   border-bottom: 0;
 }
 
 #logo {
   padding-top: 13px;
-}
 
+}
+.circle{
+  border-radius: 2em;
+}
 .nav {
   padding-top: 50px;
   margin-right: 50px;

@@ -4,21 +4,50 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-
-    <!-- <link href="css/bootstrap.css" type="text/css" rel="stylesheet"> -->
+    <title>Challenge x3</title>
     <link href="bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <!-- <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'> -->
-<!--
-    <script src="jquery/jquery-1.12.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script> -->
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <script src="js/fakebdd.js"></script>
     <script src="js/catalogue.js"></script>
 
   </head>
   <body onload="initialiser()">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img id="logo" src="http://www.lecturesalchimiques.com/img/lectures-alchimiques-1435070231.jpg"/>
+          <!-- ici ce trouvait un titre à gauche que j'ai supprimé-->
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#about">Catalogue</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Panier</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+
+      </div>
+
+    </nav>
+
+
+
+
+
+
+
     <div class="container">
     <div class="row no-padding">
       <div class="col-md-2">
@@ -59,5 +88,9 @@
       </div> <!-- fin de col-md-10 -->
     </div>  <!-- fin de row -->
     </div> <!-- fin de container -->
+
+    <footer>
+        <p>© Place sticky footer content here.</p>
+    </footer>
 
   </body>
