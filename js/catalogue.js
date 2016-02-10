@@ -26,11 +26,11 @@ function initialiser() {
     elementMaThumbnail.appendChild(elementMaCaption);
 
     var elementMonH3= document.createElement('h3');
-    elementMonH3.innerHTML = "Image 1";
+    elementMonH3.innerHTML = catalogue[i].nom;
     elementMaCaption.appendChild(elementMonH3);
 
     var elementDesc= document.createElement('p');
-    elementDesc.innerHTML = "Cras justo odio, dapibus ac facilisis in, egestas eget quam.";
+    elementDesc.innerHTML = catalogue[i].description;
     elementMaCaption.appendChild(elementDesc);
 
     var elementBoutons= document.createElement('div');
