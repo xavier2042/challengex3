@@ -8,3 +8,7 @@ table caption {
   font-size: 20px;
   color: grey;
 }
+
+.bouton-valide {
+  margin-bottom: 5em;
+}
