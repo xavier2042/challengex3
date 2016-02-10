@@ -48,4 +48,4 @@ var livre8={
   photo:"image/livre8.jpg",
   prix: "20 euros"
 }
-var catalogue=[livre1,livre2,livre3,livre4,livre5, livre6,livre7,livre8]
+var catalogue=[livre1,livre2,livre3,livre4,livre5,livre6,livre7,livre8];

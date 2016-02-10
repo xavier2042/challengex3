@@ -35,6 +35,9 @@ function initialiser() {
 
     var elementBoutons= document.createElement('div');
     var elementBouton1= document.createElement('a');
+    // for (var j = 0; j < catalogue.length; j++)
+    elementBouton1.href = "ficheIndex.html?paramIndice=" + [i];
+
     elementBouton1.className = "btn btn-primary";
     elementBouton1.innerHTML = catalogue[i].prix;
     var elementBouton2= document.createElement('a');
