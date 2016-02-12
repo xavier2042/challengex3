@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/homepageStyle.css" rel="stylesheet"/>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <script src="fakebdd.js"></script>
     <script src="script.js"></script>
@@ -63,21 +64,20 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <img id="logo" src="http://www.lecturesalchimiques.com/img/lectures-alchimiques-1435070231.jpg" class="circle"/>
+        <!-- <img id="logo" src="/image/logo2.png" style="width: 80px; height: 140px;"/> -->
         <!-- ici ce trouvait un titre à gauche que j'ai supprimé-->
       </div>
 
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#about">Catalogue</a></li>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="gallerieIndex.html">Catalogue</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#contact">Panier</a></li>
+          <li><a href="panierIndex.html">Panier</a></li>
         </ul>
       </div><!--/.nav-collapse -->
-
+      <!-- <div class="bandeaugris"></div> -->
     </div>
-
   </nav>
 
 
@@ -87,23 +87,24 @@
     </div>
   </div>
 
+  <div class="container articles">
   <div class="row no-padding">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-2 articlehome">
       <div class="row no-padding">
       <h3>Meilleures Ventes</h3>
-      <div class="col-md-4">
+      <div class="col-md-4 articlehome">
         <div>
-        <img src="image/livre5.jpg" class="img-responsive"><a href="#">
+        <a href="#"><img src="image/livre5.jpg" class="img-responsive"></a>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 articlehome">
         <div>
-        <img src="image/livre2.jpg" class="img-responsive"><a href="#">
+        <a href="#"><img src="image/livre2.jpg" class="img-responsive"></a>
       </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 articlehome">
         <div>
-        <img src="image/livre3.jpg" alt="" class="img-responsive"><a href="#">
+        <a href="#"><img src="image/livre3.jpg" alt="" class="img-responsive"></a>
         </div>
       </div>
     </div>
@@ -112,23 +113,23 @@
   </div>
 
   <div class="row no-padding">
-    <div class="col-md-4 col-md-offset-2">
-      <h3>A Propos</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="col-md-4 col-md-offset-2 text-justify">
+      <h3 class="articlehome2">A Propos</h3>
+      <p>L.A est le fruit d'une expérience de plus de 30 ans dans la librairie et de près de 15 ans dans la vente sur Internet permettant aux amateurs du 9ème Art du Monde entier de commander et recevoir « Toute la Bande Dessinée ».</p>
     </div>
 
 
-    <div class="col-md-4">
-      <h3>Contact</h3>
+    <div class="col-md-4 articlehome3">
+      <h3 class="articlehome2">Contact</h3>
           <form class="form-horizontal" role="form" name="form" action="" method="post">
             <div class="form-group">
-                <label for="inputEmail1" class="col-sm-4 control-label">Adresse email</label>
+                <label for="inputEmail1" class="col-sm-4 control-label"></label>
                 <div class="col-sm-20">
                     <input type="email" name="inputEmail" class="form-control" id="inputEmail1" placeholder="Adresse email">
                 </div>
             </div>
-            <div class="form-group">
-                <label for="inputPassword1" class="col-sm-4 control-label">Mot de passe</label>
+            <div class="form-group" id="contact">
+                <label for="inputPassword1" class="col-sm-4 control-label"></label>
                 <div class="col-sm-20">
                     <input type="password" name="inputPassword" class="form-control" id="inputPassword1" placeholder="Mot de passe">
                 </div>
@@ -144,14 +145,15 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-4 col-sm-20">
-                    <button type="submit" class="btn btn-primary"><i class="icon icon-check icon-lg"></i> Valider</button>
-                    <button type="button" class="btn btn-inverse"><i class="icon icon-times icon-lg"></i> Annule</button>
+                    <button type="submit" class="btn btn-inverse bouton"><i class="icon icon-check icon-lg"></i> Valider</button>
+                    <button type="button" class="btn btn-inverse bouton"><i class="icon icon-times icon-lg"></i> Annuler</button>
                 </div>
             </div>
           </form>
 
       </div>
     </div>
+  </div>
     <footer>
         <p>© Place sticky footer content here.</p>
     </footer>
