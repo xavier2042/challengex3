@@ -1,3 +1,15 @@
+.center{
+  text-align: center;
+}
+.prix{
+  margin:0 a;
+  padding:2px;
+  border: solid 1px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 5px;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   margin-top: 150px;
@@ -10,25 +22,19 @@ body {
   border-bottom: 0;
   position:fixed;
 }
+/*<<<<<<< HEAD
+=======
 
 #logo {
   padding-top: 13px;
   border-radius: 3px;
 }
 
+>>>>>>> b12f0bd54c02878de43b5771e892a2536dd10830*/
 .nav {
   padding-top: 50px;
   margin-right: 50px;
 }
-
-/*.bandeaugris{
-  width: 100%;
-  height: 0.3em;
-  background-color: #BAB3A3;
-  opacity:0.8;
-  margin-top: 1em;
-  position:fixed;
-}*/
 #navbar ul li {
   margin-left: 10px;
   margin-right: 10px;
