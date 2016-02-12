@@ -31,8 +31,7 @@ function ajouterPanier(){
     quantite: pechoquantite,
   }
   panier.push(lignePanier);
-
-
+  
   sessionStorage.setItem("paniersauvegarde",JSON.stringify(panier));
 }
 
