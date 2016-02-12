@@ -3,20 +3,20 @@ var livre1={
   nom:"Les vieux fourneaux - tome 1",
   description:"Une comédie sociale aux parfums de lutte des classes et de choc des générations, qui commence sur les chapeaux de roues.",
   photo:"image/livre1.jpg",
-  prix: 11,
+  prix: 11
 
 }
 var livre2={
   nom:"L'Arabe du futur - Tome 1",
   description:"Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.",
   photo:"image/livre2.jpg",
-  prix: 15,
+  prix: 15
 }
 var livre3={
   nom:"Beta... civilisations : Volume 1 ",
   description:"Cinq ans après la parution d'alpha... directions (primé au festival d'Angoulême), Jens Harder reprend le fil de son grand oeuvre et livre les 368 pages très attendues de beta... civilisations (première partie).",
   photo:"image/livre3.jpg",
-  prix: 13,
+  prix: 13
 }
 var livre4={
   nom:"Lincoln, tome 1 : Crâne de bois",
@@ -34,13 +34,13 @@ var livre6={
   nom:"Ulysse, les chants du retour",
   description:"C'est le point de départ de la bande dessinée, qui suit fidèlement le récit d'Homère mais s'interrompt par endroits pour laisser la parole, dans un commentaire vivant, à des penseurs ou à des anonymes. ",
   photo:"image/livre6.jpg",
-  prix: 26,
+  prix: 26
 }
 var livre7={
   nom:"Yekini le roi des arènes ",
   description:"Vous avez lu la biographie de Yékini ? Quel ennui, il passe son temps à s'entraîner ! Ce type a l'air d'un gros nounours qu'on a envie de câliner. ",
   photo:"image/livre7.jpg",
-  prix: 33,
+  prix: 33
 }
 var livre8={
   nom:"Locke & Key, Tome 6 : Fantasy ",
