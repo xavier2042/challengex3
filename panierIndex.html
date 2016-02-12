@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Challenge x3</title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet"/>
-    <link href="css/panierStyle.css" rel="stylesheet">
-    <script src="js/fakebdd.js" type="text/javascript"></script>
-    <script src="js/panier.js" type="text/javascript"></script>
-    <script src="js/fiche.js" type="text/javascript"></script>
+    <link href="css/gallerieStyle.css" rel="stylesheet"/>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script src="js/fakebdd.js"></script>
+    <script src="js/catalogue.js"></script>
+
   </head>
-  <body onload="affichePanier()">
+  <body onload="initialiser()">
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
+
       <div class="container">
+
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -21,25 +26,22 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <img id="logo" src="http://www.lecturesalchimiques.com/img/lectures-alchimiques-1435070231.jpg"/>
+          <img id="logo" src="/image/lectures-alchimiques-1435070231.jpg" style="width: 100px; height: 100px;"/>
+          <!-- ici ce trouvait un titre à gauche que j'ai supprimé-->
         </div>
+
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#about">Catalogue</a></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="gallerieIndex.html">Catalogue</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#contact">Panier</a></li>
+            <li><a href="panierIndex.html">Panier</a></li>
           </ul>
-        </div>
+        </div><!--/.nav-collapse -->
+        <!-- <div class="bandeaugris"></div> -->
       </div>
+
     </nav>
-    <div id="bandeau" class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 no-padding">
-          <img src="image/bandeau.png"/>
-        </div>
-      </div>
-    </div>
 
 <!-- ##################################################"" -->
 
@@ -113,7 +115,7 @@
       </table>
 
       <div class="">
-          <button type="button" class="btn  btn-primary center-block bouton-valide">Valider votre panier</button>
+          <button type="button" class="btn  btn-inverse center-block bouton-valide"><i class="icon icon-times icon-lg"></i>Valider votre panier</button>
       </div>
 
     </main>

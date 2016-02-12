@@ -11,4 +11,6 @@ table caption {
 
 .bouton-valide {
   margin-bottom: 5em;
+  background-color: #6e050a;
+  color: white;
 }
