@@ -17,9 +17,14 @@ function initialiser() {
     elementMaThumbnail.className = "thumbnail";
     elementMaCol6.appendChild(elementMaThumbnail);
 
+    var elementmonlien = document.createElement('div')
+    elementMaThumbnail.appendChild(elementMonImage);
+
     var elementMonImage= document.createElement('img');
     elementMonImage.src = catalogue[i].photo;
-    elementMaThumbnail.appendChild(elementMonImage);
+    // elementMonImage.href = "ficheIndex.html?paramIndice=" + [i];
+    // var elementlien= document.createElement('a');
+    // elementMonImage.appendChild(elementlien);
 
     var elementMaCaption= document.createElement('div');
     elementMaCaption.className = "caption";

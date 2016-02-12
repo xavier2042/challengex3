@@ -13,6 +13,7 @@ function afficheFiche(){
   param_image.src = livre.photo;
   param_prix.innerHTML = livre.prix;
 }
+
 var panier = [];
 function ajouterPanier(){
   var saisieimg = document.getElementById('imgsrc');
@@ -23,11 +24,14 @@ function ajouterPanier(){
   var pechoprix = saisieprix.innerHTML;
   var saisiequantite = document.getElementById('quantite');
   var pechoquantite = saisiequantite.value;
+  var lignePanier = {
+    image: pechoimg,
+    nom: pechonom,
+    prix: pechoprix,
+    quantite: pechoquantite,
+  }
+  panier.push(lignePanier);
 
-  panier.push(pechoimg);
-  panier.push(pechonom);
-  panier.push(pechoprix);
-  panier.push(pechoquantite);
 
   sessionStorage.setItem("paniersauvegarde",JSON.stringify(panier));
 }
