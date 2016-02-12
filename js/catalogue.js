@@ -17,8 +17,8 @@ function initialiser() {
     elementMaThumbnail.className = "thumbnail";
     elementMaCol6.appendChild(elementMaThumbnail);
 
-    var elementdivimg = document.createElement('div')
-    elementMaThumbnail.appendChild(elementMonImage);
+    // var elementdivimg = document.createElement('div')
+    // elementMaThumbnail.appendChild(elementMonImage);
 
     var elementMonImage= document.createElement('img');
     elementMonImage.src = catalogue[i].photo;
