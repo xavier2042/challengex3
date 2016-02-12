@@ -35,13 +35,13 @@ function initialiser() {
 
     var elementBoutons= document.createElement('div');
     var elementBouton1= document.createElement('a');
-    elementBouton1.className = "btn btn-primary";
+    elementBouton1.className = "btn btn-primary bouton";
     elementBouton1.innerHTML = catalogue[i].prix;
-    var elementBouton2= document.createElement('a');
-    elementBouton2.className = "btn btn-default";
-    elementBouton2.innerHTML = "Panier";
+    // var elementBouton2= document.createElement('a');
+    // elementBouton2.className = "btn btn-default";
+    // elementBouton2.innerHTML = "Panier";
     elementBoutons.appendChild(elementBouton1);
-    elementBoutons.appendChild(elementBouton2);
+    // elementBoutons.appendChild(elementBouton2);
     elementMaCaption.appendChild(elementBoutons);
   }
 
