@@ -42,13 +42,11 @@ function initialiser() {
 
 
     var elementBoutons= document.createElement('div');
+
     var elementBouton1= document.createElement('span');
-    // for (var j = 0; j < catalogue.length; j++)
-    // elementBouton1.href = "ficheIndex.html?paramIndice=" + [i];
     elementBoutons.className = "center";
     elementBouton1.className = "prix";
     elementBouton1.innerHTML = catalogue[i].prix + " €uros";
-
     elementBoutons.appendChild(elementBouton1);
     elementMaCaption.appendChild(elementBoutons);
   }
