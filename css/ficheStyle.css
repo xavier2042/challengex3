@@ -9,8 +9,15 @@
 .descriptionProduit {
   list-style: none;
 }
+.btn{
+  margin-top: 50px;
+}
 .cadre{
   padding: 50px 0;
+}
+.input{
+  width: 60px;
+  text-align: center;
 }
 .quantite{
   width: 100px;
@@ -41,7 +48,7 @@
 }
 .avis {
   text-align: center;
-  margin:0 auto;
+  margin:25px auto;
   width: 500px;
   border: solid 1px;
   border-radius: 5px;
@@ -77,6 +84,10 @@
 	background: -webkit-linear-gradient(#fff, #999);
 	background: -o-linear-gradient(#fff, #999);
 }
-.close li{
+/*.close li{
   list-style: none;
+}*/
+.espace{
+  border: solid 1px;
+  margin: 25px 0 ;
 }
